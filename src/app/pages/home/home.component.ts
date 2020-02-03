@@ -13,8 +13,9 @@ export class HomeComponent implements OnInit {
     $(document).ready(function(){
       $('.parallax').parallax();
       $('.modal').modal();
+      $('.tap-target').tapTarget();
     });
-    M.toast({html: 'Bienvenid@/Welcome!'});
+    M.toast({html: 'Bienvenid@ a mi página!'});
          
    }
 
