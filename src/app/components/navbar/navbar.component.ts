@@ -10,7 +10,7 @@ export class NavbarComponent implements OnInit {
   constructor() {
     $(document).ready(function(){
       $('.sidenav').sidenav();
-    })
+    });
    }
 
   ngOnInit() {
