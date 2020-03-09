@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "emiliohernandezdev"
+  },
+  "targets": {
+    "emiliohernandezdev": {
+      "hosting": {
+        "devweb": [
+          "emiliohernandezdev"
+        ]
+      }
+    }
   }
 }
